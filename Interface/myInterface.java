@@ -20,7 +20,7 @@ public class myInterface implements i1, i2{
     }
     public static void main(String[] args){
         myInterface obj = new myInterface();
-        // obj.first();
+         obj.first();
         obj.first("HelloWorld");
         // obj.count = 10;
     }

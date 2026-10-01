@@ -1,7 +1,7 @@
 package packageA;
 
 // Same Package Subclass (Yes, No, Yes, Yes)
-class SamePkgSubclass extends Parent {
+class SamePkgSubclass extends packageA.Parent {
     public void testSubclass() {
         System.out.println("\nTesting Same Package Subclass...");
         // System.out.println(privateVar); // ERROR -> privateVar has private access in Parent
@@ -14,7 +14,7 @@ class SamePkgSubclass extends Parent {
 // Same Package Non-Subclass (Yes, No, Yes, Yes)
 public class SamePkgTester {
     public static void main(String[] args) {
-        packageA.Parent p = new Parent();
+        packageA.Parent p = new packageA.Parent();
         SamePkgSubclass sub = new SamePkgSubclass();
         sub.testSubclass();
 

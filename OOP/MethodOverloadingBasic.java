@@ -36,8 +36,8 @@ public class MethodOverloadingBasic{
 
 
 //Widening
-//char->int->long->float->double
-//10->int
+//'a'->char->int->long->float->double
+//10->int->long->float->double
 //10L->long->float->long
 //10.0->double
 //10.0f->float->double

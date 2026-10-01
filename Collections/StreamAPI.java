@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class StreamAPI {
-    public static void main() {
+    public void main() {
         List<Integer> nums = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         // Filter even numbers, square them, collect to list
